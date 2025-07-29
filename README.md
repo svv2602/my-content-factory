@@ -11,7 +11,7 @@ N8N_BASIC_AUTH_USER=admin
 N8N_BASIC_AUTH_PASSWORD=strongpassword # пароль, какой хотите
 ```
 5. Открыть папку в терминале
-6. Запустить команду ```docker compose up -d```
+6. Запустить команду ```docker compose up --build -d```
 8. Открыть в браузере http://localhost:5678/
 9. Зарегистрироваться
 10. Нажать "+" в верхнем левом углу -> Workflow![](./images/1.png)
