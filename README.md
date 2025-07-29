@@ -14,7 +14,7 @@ N8N_BASIC_AUTH_PASSWORD=strongpassword # пароль, какой хотите
 6. Запустить команду docker compose up -d
 7. Открыть в браузере http://localhost:5678/
 8. Зарегистрироваться
-9. Нажать "+" в верхнем левом углу -> Workflow![images/Pasted image 20250729205407.png]
+9. Нажать "+" в верхнем левом углу -> Workflow ![text][(./images/1.png)
 10. В левом нижнем углу нажать "..." -> Settings -> Community nodes -> Install a community node -> "@elevenlabs/n8n-nodes-elevenlabs" ![images/Pasted image 20250729210005.png]
 11. В правом верхнем углу нажать "..." -> Import from file -> Выбрать файл n8n-local.json (или n8n-telegram.json если запускаете на сервере и хотите задавать начальный промпт через телеграм бота)
 12. Кликните 2 раза в ноду "Send a text message" и нажмите "Select Credential" -> "Create new credential"![images/Pasted image 20250729210733.png]
