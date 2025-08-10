@@ -21,9 +21,9 @@ N8N_BASIC_AUTH_PASSWORD=strongpassword # пароль, какой хотите
 14. Вставьте Access token вашего бота, который вам дал @BotFather, нажмите save
 15. Аналогичным образом кликните на ноду "Get titles" и добавьте Credentials, проставив в поле API Key ваш ключ от OpenRouter API, который можно сгенерировать на https://openrouter.ai. В base url введите https://openrouter.ai/api/v1. Нажмите save
 16. Аналогичным образом настройте Credentials для HeyGen, нажав дважды на "Avatar list" и прописав Name "X-Api-Key", а Value = API ключ от HeyGen сгенерировав его тут https://app.heygen.com/settings?from=&nav=Subscriptions%20%26%20API. Чтобы не запутаться предлагаю назвать эту авторизацию "HeyGen" в левом верхнем углу (нужно зарегистрироваться)![](./images/4.png)
-17. Аналогично настроить авторизацию для ноды "Transcribe audio or video", введя свой API ключ от ElevenLabs отсюда https://elevenlabs.io/app/settings/api-keys (нужно зарегистрироваться и купить минимальную подписку)
+17. Аналогично настроить авторизацию для ноды "Transcribe audio or video", введя свой API ключ от ElevenLabs (зарегистрироваться тут https://try.elevenlabs.io/stepoleggg, купить минимальную подписку и затем взять ключ тут https://elevenlabs.io/app/settings/api-keys)
 18. Затем нужно докинуть авторизацию для piapi, чтобы генерировать музыку в Udio. Откройте ноду "Generate udio song". Нажмите Header Auth -> Create new credential![](./images/5.png)
-19. Проставьте X-API-KEY как Name и ваш API ключ от https://piapi.ai/workspace/key (нужно зарегистрироваться и пополнить минимально аккаунт). Эту авторизацию можно назвать PiApi![](./images/6.png)
+19. Проставьте X-API-KEY как Name и ваш API ключ от https://piapi.ai/workspace/key?via=oleg (нужно зарегистрироваться и пополнить минимально аккаунт). Эту авторизацию можно назвать PiApi![](./images/6.png)
 20. Проставить эту же авторизацию для ноды "Get udio song", выбрав ее в списке![](./images/7.png)
 21. Настроить Credential для OpenAI ноды генерации изображений "Generate an image", дважды кликнув на нее и создав еще одни креды ![](./images/8.png)
 22. Прописать API Key, сгенерированный тут https://platform.openai.com/settings/organization/general (нужно зарегистрироваться и подтвердить организацию через паспорт тут https://platform.openai.com/settings/organization/general)![](./images/9.png)
