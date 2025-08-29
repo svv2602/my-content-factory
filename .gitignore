@@ -1,0 +1,67 @@
+# Файлы с секретными данными
+.env
+.env.local
+.env.production
+.env.development
+
+# Резервные копии с потенциально чувствительными данными
+.env.backup
+
+# n8n данные (могут содержать токены и персональную информацию)
+n8n_data/
+!n8n_data/.gitkeep
+
+# Логи
+*.log
+logs/
+*.log.*
+
+# Временные файлы
+tmp/
+temp/
+.tmp/
+
+# Операционная система
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Резервные копии
+*.backup
+*.bak
+*.orig
+
+# Docker
+.docker/
+
+# Локальные настройки
+config/local.json
+local-config.json
+
+# Credentials файлы
+credentials.json
+secrets.json
+
+# Персональные файлы workflow (с настоящими токенами)
+n8n-telegram-personal.json
+n8n-local-personal.json
+
+# Тестовые данные
+test-data/
+test-videos/
+test-images/
+
+# Backups директория с потенциально чувствительными данными  
+backups/
+
